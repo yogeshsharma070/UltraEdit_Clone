@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI';
+    user-select: none;
 }
 
-*:focus,*:active,::selection{
-outline: none ;
-background-color: transparent;
-box-shadow: none;
+button,svg,img,a{
+    -webkit-tap-highlight-color: transparent !important;
+    outline: none;
 }
 
 body {
     min-width: 240px;
+    scroll-behavior: smooth;
 }
 
 nav {
